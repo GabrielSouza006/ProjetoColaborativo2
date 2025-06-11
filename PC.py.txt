@@ -80,10 +80,6 @@ def exibir_troco(troco):
 
 # Modo de administração da máquina (com senha "admin")
 def modo_admin():
-    senha = input("Digite a senha de administrador: ")
-    if senha != "admin":                         # Verifica senha
-        print("Senha incorreta.")
-        return
     while True:
         print("\n--- Modo Administrador ---")
         print("1. Cadastrar produto")
